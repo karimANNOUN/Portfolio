@@ -29,7 +29,7 @@ const allProject : project[] = [
   {id:6,name:'Chat-App',date:'april 2023',url:'https://chat-engine-app23.netlify.app',description:'Our web development project, [Chat-app], is designed to create a responsive and user-friendly website that [simple website with realtime option  ].',skills:'Reactjs | Tailwind Css | Firebase ',image:'https://i.pinimg.com/736x/1b/4d/90/1b4d905d8344d132e13df9c35b752263.jpg'},
   {id:7,name:'Shopping Card',date:'May 2023',url:'https://shopping-card-redux.netlify.app',description:'Our web development project, [Shopping-Cart], is designed to create a responsive and user-friendly website that [simple website for shopping our product   ].',skills:'Reactjs | Tailwind Css ',image:'https://i.pinimg.com/564x/20/1e/58/201e581998e82c754511c2b1dc09f402.jpg'},
   {id:8,name:'Campground',date:'Mars 2023',url:'https://yelpcamp-dy9a.onrender.com',description:"Our web development project, [Campground], is designed to create a responsive and user-friendly website that [a backend web site i'm using express js  this web site showing other camps places for camping and simplify for user to find her   ]",skills:'HTML | CSS | javascript | Expressjs | Mongoose | MongoDb | Bootstrap ',image:'https://i.pinimg.com/736x/4e/68/e5/4e68e53c17283d060f1a30b2a58ed739.jpg'},
-
+  {id:9,name:'Fitness App',date:'November 2023',url:'https://fitnessapp-theta.vercel.app/',description:"Our web development project, [Fitness App], is designed to create a responsive and user-friendly website that [a backend web site i'm using express js  this web site showing other camps places for camping and simplify for user to find her   ]",skills:'NextJs | Material Ui | Express js ',image:'/images/fitnes.jpg'}
 ]
 
 const router=useRouter()
@@ -48,7 +48,7 @@ const project= allProject[params.myprojectId - 1 ]
             component="img"
             alt="Product Image"
             height="100%"
-            image={project.image}
+            image={ !project ? "" : project.image}
           />
         </Grid>
         <Grid item xs={12} sm={6}>

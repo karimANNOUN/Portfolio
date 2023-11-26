@@ -32,7 +32,7 @@ export default function Project() {
         {id:6,name:'Chat-App',date:'april 2023',url:'https://chat-engine-app23.netlify.app',skills:'Reactjs | Tailwind Css | Firebase ',image:'https://i.pinimg.com/736x/1b/4d/90/1b4d905d8344d132e13df9c35b752263.jpg'},
         {id:7,name:'Shopping Card',date:'May 2023',url:'https://shopping-card-redux.netlify.app',skills:'Reactjs | Tailwind Css ',image:'https://i.pinimg.com/564x/20/1e/58/201e581998e82c754511c2b1dc09f402.jpg'},
         {id:8,name:'Campground',date:'Mars 2023',url:'https://yelpcamp-dy9a.onrender.com',skills:'HTML | CSS | javascript | Expressjs | Mongoose | MongoDb | Bootstrap ',image:'https://i.pinimg.com/736x/4e/68/e5/4e68e53c17283d060f1a30b2a58ed739.jpg'},
-        {id:9,name:'Fitness App',date:'November 2023',url:'https://fitnessapp-theta.vercel.app/',skills:'NextJs | Material Ui | Express js ',image:'https://i.pinimg.com/564x/ad/df/f6/addff69a665af9bc7791fe73b930cd9b.jpg'}
+        {id:9,name:'Fitness App',date:'November 2023',url:'https://fitnessapp-theta.vercel.app/',skills:'NextJs | Material Ui | Express js ',image:'/images/fitnes.jpg'}
     ]
 
     const router = useRouter()
